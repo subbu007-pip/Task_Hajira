@@ -40,9 +40,10 @@ To deploy BCDMA using Streamlit Cloud, follow these steps:
   
 2. Install the required Python packages.
   
-3. Deploy the Streamlit app on Streamlit Cloud using the Streamlit CLI.
+3. Deploy the Streamlit app on Streamlit.
   
-4. Access the deployed application through the provided URL.
+4. Access the deployed application through the provided URL
+   Link:
 
 ## Business Values/Insights
 
@@ -56,14 +57,10 @@ To deploy BCDMA using Streamlit Cloud, follow these steps:
 
 Contributions to BCDMA are welcome! Please refer to our Contributing Guidelines for details on how to contribute effectively.
 
-## License
-
-[Insert license information here]
-
 ## Author
 
 Subrahmanya Hegde  
 Aspiring Data Scientist  
-LinkedIn: [View Profile](https://www.linkedin.com/in/subrahmanya-hegde)  
+LinkedIn: [View Profile]([https://www.linkedin.com/in/subrahmanya-hegde](https://www.linkedin.com/in/subrahmanya-h-b9b9a8226/)https://www.linkedin.com/in/subrahmanya-h-b9b9a8226/)  
 Email: hegdesubbu67@gmail.com  
 Happy Coding!
