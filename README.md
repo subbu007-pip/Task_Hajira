@@ -1,20 +1,18 @@
 # Task_Hajira
 
-# Business Card Data Management Application
-Cardify is a Streamlit application that simplifies the process of extracting and managing business card data.  
-With Cardify, users can easily upload business card images, extract relevant information using OCR, and manage the extracted data efficiently.
+# BCDMA - Business Card Data Management Application
 
-## Project Overview
+BCDMA (Business Card Data Management Application) is a Streamlit-based application designed to simplify the extraction and management of business card data. With BCDMA, users can effortlessly upload business card images, extract pertinent information using OCR technology, and efficiently manage the extracted data.
 
-Business Card Data Management Application offers the following key features:
+## Key Features
 
-- **Data Extraction**: Upload a business card image, and Cardify will use OCR to extract information, including the individual's name, designation, contact details, and more.
+- **Data Extraction**: Utilize OCR to extract essential information such as name, designation, and contact details from uploaded business card images.
+  
+- **Database Management**: Save extracted data to an SQLite database for convenient retrieval and management. Functions include adding, updating, deleting, and retrieving business card data.
 
-- **Database Management**: The extracted data can be saved to a database for easy retrieval and management. Users can add, update, delete, and retrieve business card data.
+- **Streamlit GUI**: The application employs the Streamlit framework to create an interactive and user-friendly interface for both data extraction and database management.
 
-- **Streamlit GUI**: The project utilizes the Streamlit framework to create an interactive and user-friendly interface for both data extraction and database management.
-
-- **EasyOCR Integration**: Cardify leverages the EasyOCR library for efficient text extraction from images.
+- **EasyOCR Integration**: BCDMA leverages the EasyOCR library for efficient text extraction from images.
 
 ## Technologies Used
 
@@ -26,49 +24,46 @@ Business Card Data Management Application offers the following key features:
 
 ## Project Flow
 
-The project follows a structured flow:
+1. **Data Extraction**: Users upload business card images, and BCDMA extracts relevant information using OCR technology.
+  
+2. **Display**: The extracted data is presented in a structured format within the Streamlit GUI for easy access and review.
 
-1. **Data Extraction**: Users upload a business card image, and the application extracts the relevant information.
+3. **Database Integration**: Extracted information is stored in an SQLite database, enabling seamless data management and retrieval.
 
-2. **Display**: The extracted data is displayed in a clear and organized manner in the Streamlit GUI.
-
-3. **Database Integration**: The extracted information is saved in an SQLite database, allowing users to manage and retrieve data easily.
-
-4. **Data Management**: Users can update or delete records, and the application provides options for deleting all records in the database.
+4. **Data Management**: Users can perform various operations on the database, including updating or deleting records, with options for bulk deletion.
 
 ## Deployment (Using Streamlit Cloud)
 
-To deploy Cardify using Streamlit Cloud, follow these steps:
+To deploy BCDMA using Streamlit Cloud, follow these steps:
 
-1. Clone this repository to your local machine:
-
-   ```bash
+1. Clone the repository to your local machine.
   
-2.Install the required Python packages  
-3.Deploy the Streamlit app on Streamlit Cloud by using the Streamlit CLI.  
-4.Access the deployed application--[open app]()
+2. Install the required Python packages.
+  
+3. Deploy the Streamlit app on Streamlit Cloud using the Streamlit CLI.
+  
+4. Access the deployed application through the provided URL.
 
 ## Business Values/Insights
-**Efficiency:**  
-Cardify improves the efficiency of data entry tasks, reducing manual effort and human errors.
 
-**Centralized Database:**  
-Businesses can maintain a centralized database of business card data, making it easy to access and update contact information.
-
-**User-Friendly:**  
-The application provides a simple and intuitive interface, making it accessible to users with varying technical backgrounds.
+- **Efficiency**: BCDMA streamlines data entry tasks, reducing manual effort and minimizing errors.
+  
+- **Centralized Database**: Facilitates the maintenance of a centralized database for business card data, ensuring easy access and updates to contact information.
+  
+- **User-Friendly**: The application offers a simple and intuitive interface suitable for users with varying technical backgrounds.
 
 ## Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow our Contributing Guidelines.
+
+Contributions to BCDMA are welcome! Please refer to our Contributing Guidelines for details on how to contribute effectively.
 
 ## License
 
-## App URL
-Open Application:_
-## Author
-Subrahmanya Hegde,  
-Aspiring Data Scientist,  
-Linkedin:[View Profile](),  
-hegdesubbu67@gmail.com,  
-Happy Coding!
+[Insert license information here]
 
+## Author
+
+Subrahmanya Hegde  
+Aspiring Data Scientist  
+LinkedIn: [View Profile](https://www.linkedin.com/in/subrahmanya-hegde)  
+Email: hegdesubbu67@gmail.com  
+Happy Coding!
